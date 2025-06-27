@@ -16,8 +16,7 @@ enc_in=7
 des=Exp
 itr=1
 batch_size=16
-解码器 middle
-hidden_size= dmodel
+
 python -u run_longExp.py \
     --is_training 1 \
     --alpha 1 \
