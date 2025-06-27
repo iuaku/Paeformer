@@ -40,7 +40,7 @@ python -u run_longExp.py \
     --itr $itr \
     --batch_size $batch_size \
     --learning_rate 0.0001 > logs/LongForecasting/${model_name}_ETTh1_96_96.log
-    # --lradj  type3 \
+
 
 python -u run_longExp.py \
     --is_training 1 \
@@ -89,7 +89,7 @@ python -u run_longExp.py \
     --itr $itr \
     --batch_size $batch_size \
     --learning_rate 0.001 > logs/LongForecasting/${model_name}_ETTh1_96_336.log
-    # --use_norm 0 \
+
 python -u run_longExp.py \
     --is_training 1 \
     --alpha 1 \
@@ -111,6 +111,6 @@ python -u run_longExp.py \
     --des $des \
     --itr $itr \
     --batch_size $batch_size \
-    --learning_rate 0.0001 > logs/LongForecasting/${model_name}_ETTh1_96_72011.log
+    --learning_rate 0.0001 > logs/LongForecasting/${model_name}_ETTh1_96_720.log
 
 
